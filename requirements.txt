@@ -1,0 +1,5 @@
+ollama
+gitpython
+pyyaml
+python-dotenv
+requests
