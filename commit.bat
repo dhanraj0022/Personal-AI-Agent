@@ -8,6 +8,7 @@ if "%~1"=="" (
     set "msg=%~1"
 )
 
+git pull origin main --rebase
 git add .
 git commit -m "%msg%"
-git push
+git push origin main
